@@ -5,37 +5,13 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
       <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
-          height={37}
+          height={60}
           priority
         />
       </div>
@@ -45,21 +21,21 @@ export default function Home() {
           <h2>
             Basic <span>-&gt;</span>
           </h2>
-          <p>Basic level off css training</p>
+          <p>Basic level off css training.</p>
         </Link>
 
         <Link href="/basic" className={styles.card}>
           <h2>
             Advanced <span>-&gt;</span>
           </h2>
-          <p>Advanced level off css training</p>
+          <p>Advanced level off css training.</p>
         </Link>
 
         <Link href="/basic" className={styles.card}>
           <h2>
             Suhu <span>-&gt;</span>
           </h2>
-          <p>OP, undoubtedly</p>
+          <p>OP, undoubtedly.</p>
         </Link>
 
         <a
